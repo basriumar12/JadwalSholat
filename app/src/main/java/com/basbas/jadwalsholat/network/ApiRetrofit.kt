@@ -12,7 +12,7 @@ class ApiRetrofit {
 
         fun create(): ApiService {
 
-            val BASEURL = ""
+            val BASEURL = "http://muslimsalat.com/"
             val interceptor = HttpLoggingInterceptor()
             interceptor.level = HttpLoggingInterceptor.Level.BODY
 
